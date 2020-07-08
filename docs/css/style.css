@@ -1,0 +1,138 @@
+.tabButton {
+
+    font-size: 15px; font-weight: bold; padding: 1em; width:25em;  
+
+}
+
+.tab {
+
+    padding: 2em;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    main {
+
+        width: 700px;
+
+    }
+
+}
+#Info{
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border:.4em solid black;
+  background-color: #832801;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 2em;
+  
+ ;
+  
+}
+#restaurants{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+
+}
+.restaurant{
+    width: 20em;
+    height: 12em;
+    margin: .5em .5em 0 .5em;
+  border: .3em black solid;
+}
+.content{
+  align-content: center;
+  justify-content: center;
+  display:flex;
+
+}
+#Menu{
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #832801;
+  border:.7em solid black;
+  border-radius: 5em;
+}
+.item-1{
+  background-color: red;
+  position: relative;
+  width:12em;
+  height: 12em;
+  border: .3em solid black;
+  margin: .5em .5em .5em .5em;
+}
+.item-2{
+  background-color: red;
+  position: relative;
+  width:12em;
+  height: 12em;
+  border: .3em solid black;
+  margin: .5em .5em .5em .5em;
+  display:none;
+}  
+.Atras{
+  width: 6em;
+  grid-column: 1 / span 1;
+  grid-row: 1 /span 2;
+  padding:.3em;
+  margin-left:.5em;
+  border :.2em black solid;
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+} 
+.Sigue{
+  width: 6em;
+  grid-column: 6 / span 1;
+  grid-row: 1 /span 2;
+  padding:.3em;
+  margin-right: .5em;
+  border:.2em black solid;
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+}
+.details{
+  display: none;
+  background-color: red;
+  position: relative;
+  width:12em;
+  height:12em;
+  border: .3em solid black;
+  margin: .5em .5em .5em .5em;
+  text-align: center;
+  font-weight: bold;
+}
+.tabsy{
+    justify-content:  center;
+}
+body { 
+
+font-family: 'Dosis', sans-serif;
+ background-color: #853b1b;
+
+}
+
+#content {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+
+
