@@ -129,11 +129,10 @@ function Toggle(e){
             Details[i].style.display ='none';
          }
 
-      console.log('aaaaaaaaaaaaaaaaaaaa');
-
+      
 }
 
 export default menuLooks
 
-
+previousElementSibling
 
